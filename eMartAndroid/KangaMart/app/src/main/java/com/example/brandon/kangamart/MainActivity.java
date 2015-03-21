@@ -4,14 +4,26 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import android.content.Intent;
+import android.widget.Button;
+import android.view.View.OnClickListener;
+import android.view.View;
+import com.example.brandon.kangamart.R;
 
 public class MainActivity extends ActionBarActivity {
-
+    Button loginB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        loginB = (Button) findViewById(R.id.Forgot);
+        loginB.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Register.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
