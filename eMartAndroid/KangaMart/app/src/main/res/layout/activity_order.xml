@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/name"
-        android:paddingTop="10dp"
+        android:paddingTop="10dp">
 
        <EditText
            android:layout_width="fill_parent"
@@ -20,14 +20,14 @@
            android:id="@+id/fillname"
            android:hint="Name"
            android:inputType="text"
-           android:textColorHint="@android:color/black"/>
-        <LinearLayout/>
+           android:textColorHint="@android:color/white"/>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/delivery_location"
-        android:layout_below="@+id/fillname"
+        android:layout_below="@id/name"
         android:paddingTop="10dp">
 
         <EditText
@@ -35,13 +35,13 @@
             android:layout_height="wrap_content"
             android:hint="Delivery Location"
             android:inputType="text"
-            android:textColorHint="@android:color/black"/>
+            android:textColorHint="@android:color/white"/>
         </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/upper_price"
-        android:layout_below="@+id/delivery_location"
+        android:layout_below="@id/delivery_location"
         android:paddingTop="10dp">
 
         <EditText
@@ -49,13 +49,13 @@
             android:layout_height="wrap_content"
             android:hint="Upper Price Preference"
             android:inputType="text"
-            android:textColorHint="@android:color/black"/>
+            android:textColorHint="@android:color/white"/>
         </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/lower_price"
-        android:layout_below="@+id/upper_price"
+        android:layout_below="@id/upper_price"
         android:paddingTop="10dp">
 
         <EditText
@@ -63,23 +63,26 @@
             android:layout_height="wrap_content"
             android:hint="Lower Price Preference"
             android:inputType="text"
-            android:textColorHint="@android:color/black"/>
+            android:textColorHint="@android:color/white"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/urgency"
-        android:layout_below="@+id/lower_price"
+        android:layout_below="@id/lower_price"
         android:paddingTop="10dp">
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/spinner"
-            android:layout_below="@+id/lower_price"
+            android:layout_below="@id/lower_price"
             android:layout_alignParentLeft="true"
             android:spinnerMode="dropdown"
             android:entries="@android:array/urgency"
-            android:prompt="@android:string/choose_urgency"/>
+            android:prompt="@android:string/choose_urgency"
+            android:background="@android:color/white"/>
         </LinearLayout>
+</RelativeLayout>
 
 

@@ -10,27 +10,23 @@
     <string name="lbl_user_field">Enter Email Address</string>
     <string name="lbl_pass_field">Enter Password</string>
     <string name="lbl_login">Login</string>
-
     <string name="order">Order</string>
     <string name="delivery">Delivery</string>
-
     <string name="title_activity_register">Register</string>
     <string name="sign_up">Sign Up</string>
     <string name="email">Email</string>
     <string name="confirm_email">Confirm Email</string>
     <string name="confirm_password">Confirm Password</string>
-<<<<<<< HEAD
+
     <string-array name="urgency">
         <item>Low</item>
         <item>Medium</item>
         <item>High</item>
         <item>VAMOS!!!!</item>
     </string-array>
+
     <string name="choose_urgency">Choose Urgency</string>
-=======
-    <string name="order">Order</string>
-    <string name="delivery">Deliver</string>
     <string name="option">What do you want to do?</string>
->>>>>>> 0572b33c0aef754c7cc72be9a85bef5644472647
+    <string name="title_activity_confirm_delivery">ConfirmDelivery</string>
 
 </resources>
