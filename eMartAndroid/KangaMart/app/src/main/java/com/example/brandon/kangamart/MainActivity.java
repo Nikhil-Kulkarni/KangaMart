@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 import android.view.View;
-import com.example.brandon.kangamart.R;
+//import com.example.brandon.kangamart.R;
 
 public class MainActivity extends ActionBarActivity {
     Button loginB;
