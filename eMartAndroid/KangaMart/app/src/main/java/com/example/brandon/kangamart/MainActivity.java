@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 import android.view.View;
-//import com.example.brandon.kangamart.R;
 
 public class MainActivity extends ActionBarActivity {
     Button loginB;
@@ -21,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
         loginB.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Register.class);
+                Intent intent = new Intent(MainActivity.this, Selection.class);
                 startActivity(intent);
             }
         });
@@ -30,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
         registerB.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Selection.class);
+                Intent intent = new Intent(MainActivity.this, Register.class);
                 startActivity(intent);
             }
         });
