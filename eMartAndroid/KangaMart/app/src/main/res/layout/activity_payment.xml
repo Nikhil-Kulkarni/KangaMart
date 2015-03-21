@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.brandon.kangamart.Payment"
-    android:background="@android:color/holo_green_light">
+    android:background="@android:color/darker_gray">
 
     <TextView
         android:id="@+id/payment"
@@ -13,6 +13,7 @@
         android:textSize="50sp"
         android:textColor="@android:color/black"
         android:layout_width="wrap_content"
+        android:textStyle="bold"
         android:layout_height="wrap_content"/>
 
     <TextView
