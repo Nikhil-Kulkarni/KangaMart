@@ -9,6 +9,16 @@
     android:background="@android:color/holo_blue_dark">
 
 
+    <TextView
+        android:id="@+id/selection_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Decide?"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="160dp"/>
     <Button
         android:id="@+id/Order"
         android:layout_width="400dp"
@@ -22,15 +32,24 @@
         android:layout_above="@+id/Delivery"
         android:textColor="@android:color/white"/>
 
+        android:layout_below="@id/selection_header"
+        android:text="@string/lbl_order"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
     <Button
         android:id="@+id/Delivery"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
+
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:text="Delivery"
         android:backgroundTint="@android:color/holo_blue_bright"
+
+        android:layout_below="@id/Order"
+        android:text="Delivery"
         android:textSize="20sp"
         android:textColor="@android:color/black"/>
 
-    </RelativeLayout>
+</RelativeLayout>

@@ -63,11 +63,12 @@
         android:layout_width="375dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/PassField"
-        android:text="@string/lbl_forgot_pass"
+        android:text="@string/lbl_login"
         android:textSize="20sp"
         android:textColor="@android:color/black"/>
 
     <Button
+        android:id="@+id/noAccount"
         android:layout_width="375dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/Forgot"
