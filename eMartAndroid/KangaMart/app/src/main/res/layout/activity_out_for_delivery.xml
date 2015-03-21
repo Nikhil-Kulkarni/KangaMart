@@ -5,24 +5,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.brandon.kangamart.OutForDelivery"
-    android:background="@android:color/holo_green_light">
+    android:background="@android:color/darker_gray">
 
     <TextView
         android:id="@+id/out"
         android:text="Out For Delivery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50sp"
-        android:textColor="@android:color/black"/>
+        android:textSize="45sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/eta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/out"
-        android:text="ETA: "
+        android:text="ETA: 23 minutes"
         android:textSize="35sp"
         android:textColor="@android:color/black"
-        android:paddingTop="75dp"/>
+        android:paddingTop="20dp"/>
 
 </RelativeLayout>
