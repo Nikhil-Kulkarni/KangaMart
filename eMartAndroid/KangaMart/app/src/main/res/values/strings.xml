@@ -28,5 +28,6 @@
     <string name="choose_urgency">Choose Urgency</string>
     <string name="option">What do you want to do?</string>
     <string name="title_activity_confirm_delivery">ConfirmDelivery</string>
+    <string name="title_activity_out_for_delivery">OutForDelivery</string>
 
 </resources>
