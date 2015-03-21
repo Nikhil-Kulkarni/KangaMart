@@ -80,7 +80,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/textbox"
-        android:layout_below="@+id/name"
+        android:layout_below="@+id/lower_price"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true">
 
@@ -89,7 +89,7 @@
             android:layout_height="fill_parent"
             android:inputType="text"
             android:hint="List"
-            android:textColorHint="@android:color/holo_blue_bright"
+            android:textColorHint="@android:color/black"
             android:backgroundTint="@android:color/black"/>
     </LinearLayout>
     <TextView
@@ -98,7 +98,7 @@
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:layout_below="@id/item_list"
+        android:layout_below="@id/textbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
