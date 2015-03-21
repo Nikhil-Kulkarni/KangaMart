@@ -12,6 +12,7 @@ import com.example.brandon.kangamart.R;
 
 public class MainActivity extends ActionBarActivity {
     Button loginB;
+    Button registerB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,15 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Register.class);
+                startActivity(intent);
+            }
+        });
+
+        registerB = (Button) findViewById(R.id.noAccount);
+        registerB.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Selection.class);
                 startActivity(intent);
             }
         });
