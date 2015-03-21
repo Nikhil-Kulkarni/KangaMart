@@ -69,7 +69,7 @@
         android:layout_width="375dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/Forgot"
-        android:text="@string/sign_up"
+        android:text="@string/lbl_register"
         android:textSize="20sp"
         />
 
