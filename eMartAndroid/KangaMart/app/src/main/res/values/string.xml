@@ -18,13 +18,6 @@
     <string name="confirm_email">Confirm Email</string>
     <string name="confirm_password">Confirm Password</string>
 
-    <string-array name="urgency">
-        <item>Low</item>
-        <item>Medium</item>
-        <item>High</item>
-        <item>VAMOS!!!!</item>
-    </string-array>
-
     <string name="choose_urgency">Choose Urgency</string>
     <string name="option">What do you want to do?</string>
     <string name="title_activity_confirm_delivery">ConfirmDelivery</string>
