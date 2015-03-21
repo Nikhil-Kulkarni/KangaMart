@@ -8,10 +8,19 @@
     tools:context=".MainActivity"
     android:background="@android:color/background_dark">
 
+    <TextView
+        android:id="@+id/header"
+        android:text="Place Order"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/name"
+        android:layout_below="@id/header"
         android:paddingTop="10dp">
 
        <EditText
@@ -112,8 +121,13 @@
             android:text="VAMOS!"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
     </LinearLayout>
+    <Button
+        android:id="@+id/confirm"
+        android:layout_below="@id/urgency2"
+        android:layout_width="400dp"
+        android:text="Confirm Order"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
 
