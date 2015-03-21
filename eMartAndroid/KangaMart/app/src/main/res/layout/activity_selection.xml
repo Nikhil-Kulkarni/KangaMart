@@ -29,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginBottom="41dp"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
 
         android:layout_below="@id/selection_header"/>
 
