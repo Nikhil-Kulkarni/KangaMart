@@ -10,5 +10,7 @@
     <string name="lbl_user_field">Enter Email Address</string>
     <string name="lbl_pass_field">Enter Password</string>
     <string name="lbl_forgot_pass">Forgot Password?</string>
+    <string name="lbl_order">Order</string>
+    <string name="lbl_delivery">Delivery</string>
 
 </resources>
