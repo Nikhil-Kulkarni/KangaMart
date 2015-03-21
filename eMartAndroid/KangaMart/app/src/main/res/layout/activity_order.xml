@@ -6,8 +6,7 @@
     android:paddingTop="@android:dimen/app_icon_size"
     android:paddingBottom="@android:dimen/app_icon_size"
     tools:context=".MainActivity"
-    android:background="@android:color/background_dark"
-    android:id="@+id/">
+    android:background="@android:color/background_dark">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -67,23 +66,54 @@
             android:textColorHint="@android:color/white"/>
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/urgent"
+        android:text="Urgency of order"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_below="@id/lower_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/urgency"
-        android:layout_below="@id/lower_price"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/urgent"
         android:paddingTop="10dp">
-        <Spinner
+        <Button
+            android:id="@+id/Low"
+            android:text="Low"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner"
-            android:layout_below="@id/lower_price"
-            android:layout_alignParentLeft="true"
-            android:spinnerMode="dropdown"
-            android:entries="@string-array/urgency"
-            android:prompt="@string/choose_urgency"
-            android:background="@android:color/white"/>
-        </LinearLayout>
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/Medium"
+            android:text="Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/urgency2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/urgency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/High"
+            android:text="High"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/vamos"
+            android:text="VAMOS!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 </RelativeLayout>
 
