@@ -29,6 +29,10 @@
             android:name=".OutForDelivery"
             android:label="@string/title_activity_out_for_delivery" >
         </activity>
+        <activity
+            android:name=".Payment"
+            android:label="@string/title_activity_payment" >
+        </activity>
     </application>
 
 </manifest>
