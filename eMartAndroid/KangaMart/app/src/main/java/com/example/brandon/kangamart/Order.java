@@ -4,12 +4,27 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.ArrayAdapter;
+import java.util.ArrayList;
 
 public class Order extends ActionBarActivity {
 
+    private ListView itemList;
+    private ArrayList<String> items;
+    private ArrayAdapter adapter;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_selection);
+        setContentView(R.layout.activity_order);
+
+        items = new ArrayList<String>();
+        items.add("Eggs");
+        items.add("Milk");
+        items.add("Butter");
+        adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, (String[])items.toArray());
+        itemList = (ListView) findViewById(R.id.item_list);
+        itemList.setAdapter(adapter);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
