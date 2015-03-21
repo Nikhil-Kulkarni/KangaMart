@@ -11,14 +11,20 @@
     <string name="lbl_pass_field">Enter Password</string>
     <string name="lbl_forgot_pass">Forgot Password?</string>
 
-    <string name="lbl_order">Order</string>
-    <string name="lbl_delivery">Delivery</string>
+    <string name="order">Order</string>
+    <string name="delivery">Delivery</string>
 
     <string name="title_activity_register">Register</string>
     <string name="sign_up">Sign Up</string>
     <string name="email">Email</string>
     <string name="confirm_email">Confirm Email</string>
     <string name="confirm_password">Confirm Password</string>
-
+    <string-array name="urgency">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>VAMOS!!!!</item>
+    </string-array>
+    <string name="choose_urgency">Choose Urgency</string>
 
 </resources>

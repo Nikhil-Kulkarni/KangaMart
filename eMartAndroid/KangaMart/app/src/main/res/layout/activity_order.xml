@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@android:dimen/app_icon_size"
+    android:paddingRight="@android:dimen/app_icon_size"
+    android:paddingTop="@android:dimen/app_icon_size"
+    android:paddingBottom="@android:dimen/app_icon_size"
+    tools:context=".MainActivity"
+    android:background="@android:color/background_dark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:paddingTop="10dp"
+
+       <EditText
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/fillname"
+           android:hint="Name"
+           android:inputType="text"
+           android:textColorHint="@android:color/black"/>
+        <LinearLayout/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delivery_location"
+        android:layout_below="@+id/fillname"
+        android:paddingTop="10dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Delivery Location"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upper_price"
+        android:layout_below="@+id/delivery_location"
+        android:paddingTop="10dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Upper Price Preference"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lower_price"
+        android:layout_below="@+id/upper_price"
+        android:paddingTop="10dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lower Price Preference"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/urgency"
+        android:layout_below="@+id/lower_price"
+        android:paddingTop="10dp">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_below="@+id/lower_price"
+            android:layout_alignParentLeft="true"
+            android:spinnerMode="dropdown"
+            android:entries="@android:array/urgency"
+            android:prompt="@android:string/choose_urgency"/>
+        </LinearLayout>
+
+
