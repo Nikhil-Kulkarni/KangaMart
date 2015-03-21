@@ -79,8 +79,8 @@
             android:layout_below="@id/lower_price"
             android:layout_alignParentLeft="true"
             android:spinnerMode="dropdown"
-            android:entries="@android:array/urgency"
-            android:prompt="@android:string/choose_urgency"
+            android:entries="@string-array/urgency"
+            android:prompt="@string/choose_urgency"
             android:background="@android:color/white"/>
         </LinearLayout>
 </RelativeLayout>
