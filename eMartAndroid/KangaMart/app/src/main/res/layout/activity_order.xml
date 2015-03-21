@@ -76,13 +76,19 @@
             android:textColorHint="@android:color/black"/>
     </LinearLayout>
 
+    <ListView
+        android:id="@+id/item_list"
+        android:layout_below="@id/lower_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
     <TextView
         android:id="@+id/urgent"
         android:text="Urgency of order"
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:layout_below="@id/lower_price"
+        android:layout_below="@id/item_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
