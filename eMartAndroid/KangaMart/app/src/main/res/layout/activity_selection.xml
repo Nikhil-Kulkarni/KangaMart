@@ -29,13 +29,9 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginBottom="41dp"
-        android:layout_above="@+id/Delivery"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
 
-        android:layout_below="@id/selection_header"
-        android:text="@string/lbl_order"
-        android:textSize="20sp"
-        android:textColor="@android:color/black"/>
+        android:layout_below="@id/selection_header"/>
 
     <Button
         android:id="@+id/Delivery"
