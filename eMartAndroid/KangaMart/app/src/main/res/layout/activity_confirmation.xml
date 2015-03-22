@@ -1,0 +1,10 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@android:dimen/app_icon_size"
+    android:paddingRight="@android:dimen/app_icon_size"
+    android:paddingTop="@android:dimen/app_icon_size"
+    android:paddingBottom="@android:dimen/app_icon_size"
+    tools:context=".MainActivity"
+    android:background="@android:color/background_dark">
+

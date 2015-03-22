@@ -76,12 +76,22 @@
             android:textColorHint="@android:color/black"/>
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/item_list"
-        android:layout_below="@id/lower_price"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </ListView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/textbox"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:inputType="text"
+            android:hint="List"
+            android:textColorHint="@android:color/holo_blue_bright"
+            android:backgroundTint="@android:color/black"/>
+    </LinearLayout>
     <TextView
         android:id="@+id/urgent"
         android:text="Urgency of order"
@@ -136,6 +146,7 @@
         android:layout_width="400dp"
         android:text="Confirm Order"
         android:layout_height="wrap_content"/>
+
 
 </RelativeLayout>
 

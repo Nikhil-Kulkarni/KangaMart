@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@android:dimen/app_icon_size"
+    android:paddingRight="@android:dimen/app_icon_size"
+    android:paddingTop="@android:dimen/app_icon_size"
+    android:paddingBottom="@android:dimen/app_icon_size"
+    tools:context=".MainActivity"
+    android:background="@android:color/darker_gray">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fillname"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"/>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/textbox"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:inputType="text"
+            android:hint="List"
+            android:textColorHint="@android:color/holo_blue_bright"
+            android:backgroundTint="@android:color/black"/>
+    </LinearLayout>
+</RelativeLayout>
+
+
