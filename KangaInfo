@@ -1,0 +1,35 @@
+<h2 id="overview">KangaMart</h2>
+
+The *Uber* for any consumer product delivery
+
+<h3 id="Target users">Target users</h3>
+
+People strive to be more productive and effective with their time. 
+
+For money strapped college students managing heavy courseloads, jobs and a social life, it may become unfeasible to purchase a car, drive to the grocery store, and 
+purchase food, even while it may be the cheaper and healthier option compared to dining hall food. 
+
+For mothers and fathers juggling demanding work and the responsibility of child rearing, driving to purchase goods at an electronics, home improvement or grocery store 
+may mean sacrificing time with their children.
+
+Any small business or restaurants that may not have the available work force to offer a delivery service but wants to grow and have a larger presence amongst consumers.
+
+Homemakers and other people are looking to make a living and have idle time.
+
+KangaMart tries to alleviate these groups' situations by connecting users available to *deliver* the goods with users who want to *order* the goods but devote 
+themselves to other activities.
+
+
+Key features:
+
+1. Convenience: A request list that can be broad or specific in details:
+	- item type (required)
+	- quantity (required)
+	- brand (optional)
+	- price range (optional)
+	- special comments and specifications (optional)
+2. Purchase is secure and safe with [Apple Pay][1] and [Stripe Pay][2]
+	[1]: https://www.apple.com/apple-pay/
+	[2]: https://stripe.com/
+3. Flexible: Deliverer can pay in any method
+4. 
